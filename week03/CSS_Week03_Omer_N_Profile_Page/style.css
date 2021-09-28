@@ -1,0 +1,228 @@
+/*body header, main ve footer dan olusmaktadir*/
+body {
+    background-color: #FFBBCC;
+}
+
+/*backgroundi resim olarak ayarladim*/
+/*resmin tekrar etmemmesini sagladiktan sonra genisligi tam sayfa olmasi icin cover kullandim*/
+header {
+    background-size: contain;
+    background: url(./background.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+}
+
+/*navigasyon kisminda logo, search ve login bulunmaktadir*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#logo img {
+    width: 100px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+#search {
+    display: inline-block;
+    opacity: 0.9;
+    padding: 2px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+#login>a {
+    display: inline-block;
+
+    color: #FFDDCC;
+    margin-top: 0px;
+    padding: 10px 20px;
+    border-radius: 22%;
+}
+
+/*yuvarlak profil resmini ayarlayip margin ile yarisini disari cikarttim */
+div>img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 180px;
+    display: inline-block;
+}
+
+/*omer n yazisinin ayarlari yapildi*/
+div>p {
+    display: inline-block;
+    color: #ff7b25;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    bottom: 100px;
+}
+
+/*main kismi leftside ve article den olusmaktadir*/
+main {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: #99154E;
+}
+
+#leftside {
+    width: 300px;
+    height: 660px;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    background-color: #FFDDCC;
+}
+
+#button a {
+    display: inline-block;
+    color: #FFDDCC;
+    padding: 10px 50px;
+    margin-bottom: 20px;
+}
+
+#button {
+    background-color: #FFBBCC;
+}
+
+.tesla {
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*kayan resim eklendi*/
+marquee {
+    height: 200px;
+    width: 300px;
+}
+
+marquee>img {
+    display: block;
+}
+
+/*article 2 kolondan olusmaktadir*/
+article {
+    display: inline-block;
+    column-count: 2;
+    column-gap: 50px;
+    column-rule: #99154E 1px solid;
+    margin-left: 300px;
+    background-color: #FFDDCC;
+}
+
+/*hakkimda bolumunun harf araligini arttirdim*/
+#about {
+    letter-spacing: 0.5px;
+}
+
+/*liste isaretini kare yaptim*/
+ul>li {
+    list-style: square;
+}
+
+/*sag alttaki video eklendi*/
+video {
+    width: 400px;
+    height: 240px;
+}
+
+/*fieldset lerin genisligi ayarlandi*/
+.intro {
+    width: 400px;
+}
+
+hr {
+    border: #99154E 1px solid;
+}
+
+/* aile bilgisi tablo ayarlari yapildi, grup seciciler kullanildi*/
+table,
+th,
+td,
+tr {
+    border: 0px;
+    border-collapse: collapse;
+    margin-left: 60px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 5px
+}
+
+th {
+    background-color: #ff7b25;
+}
+
+/*tablonun tek ve cift cocuklarina farkli renkler verildi*/
+tr:nth-child(odd) {
+    background-color: #FFBBCC;
+}
+
+tr:nth-child(even) {
+    background-color: #f78ea8;
+}
+
+/*legend larin fontu ve yazi tipi ayarlandi*/
+.legendfont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/*fieldsetlerin borderini ve background unu ayarladim*/
+.fieldborder {
+    border: #ff7b25 3px dotted;
+    background-color: #ffcfb7;
+}
+
+/*attributu href olan login ve follow omer kismina extra ayarlar yaptim*/
+/*attribute secici kullandim cunku footerdaki a lardan ayirabilmek icin*/
+[href] {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*login ve follow me butonlarina link, hover ve active secicileri kullandim*/
+div>a:link {
+    text-decoration: none;
+    background-color: #99154E;
+}
+
+div>a:hover {
+    background-color: #350d92;
+}
+
+div>a:active {
+    background-color: #0fc746;
+}
+
+/*footer kismi ayarlari yapildi*/
+footer {
+    text-align: center;
+    background-color: #ff7b25;
+}
+
+.contact {
+    color: #99154E;
+    font-weight: bolder;
+}
+
+.contact>a {
+    color: #350d92;
+    text-transform: lowercase;
+}

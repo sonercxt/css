@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Omer Profile Page</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<!--body kismi header, main ve footerdan olusmaktadir-->
+	<header>
+		<!--nav kisminda logo, search ve login bulunmaktadir-->
+		<nav>
+			<div id="logo">
+				<img
+					src="https://c.pxhere.com/photos/aa/0e/web_internet_symbol_web_design_logo_design_digital_network-841903.jpg!d">
+			</div>
+			<div id="search">
+				<form action="">
+					<input type="text" placeholder="&#128270; search">
+				</form>
+			</div>
+			<div id="login">
+				<a href="./index.html">Login</a>
+			</div>
+		</nav>
+		<!--profil resminin yaninda bulunan isim-->
+		<div>
+			<img src="./profil.jpg">
+			<p>OMER N</p>
+		</div>
+	</header>
+	<!--main kismi leftside ve article den olusmaktadir-->
+	<main>
+		<!--leftside-->
+		<section id="leftside">
+			<div id="button">
+				<a href="./index.html">Follow Omer</a>
+			</div>
+			<br><br><br>
+			<q class="tesla">
+				İnsan kalbini, bir mucidin kendi beyninin yarattığı bir ürünün başarıya ulaştığını görmesinden daha
+				fazla heyecanlandıran bir şey olduğunu düşünmüyorum
+			</q>
+			<p class="tesla"><strong>Nikola Tesla</strong></p>
+			<br><br><br>
+			<hr><br><br><br>
+			<!--kayan resim, uzerine gelince duruyor-->
+			<marquee direction="down" onmouseover="this.stop();" onmouseout="this.start();">
+				<img src="./picture1.jpg"><br>
+				<img src="./picture2.jpg"><br>
+				<img src="./picture3.jpg"><br>
+				<img src="./picture4.jpg"><br>
+				<img src="./picture5.jpg"><br>
+				<img src="./picture6.jpg"><br>
+				<img src="./picture7.jpg"><br>
+				<img src="./picture8.jpg">
+			</marquee>
+		</section>
+
+		<article>
+			<!--hakkimda bolumu-->
+			<section class="intro">
+				<fieldset class="fieldborder">
+					<legend class="legendfont">Hakkimda</legend>
+					<p id="about">1985 yilinda Adanada dogdum.Cukurova Üniversitesi <strong>endüstri
+							muhendisliginden</strong>
+						<i><u>2008</u></i> yilinda mezun oldum.yaklasik 10 yil ozel bir fabrikada muhendis olarak
+						calistim. 2018 dan
+						bu
+						yana da herhangi bir yerde calismamaktayim</p>
+				</fieldset>
+			</section>
+			<br>
+			<hr><br>
+			<!--egitim gecmisi bolumu-->
+			<section class="intro">
+				<fieldset class="fieldborder">
+					<legend class="legendfont">Egitim gecmisim</legend>
+					<p> 2004 yilinda basladigim Adana/Cukurova universitesi endüstri muhendisligi bolumunden 2008
+						yilinda 3.0 not ortalamsi ile mezun oldum</p>
+				</fieldset>
+			</section>
+			<br>
+			<hr>
+			<!--is tecrubelerim bolumu-->
+			<section class="intro">
+				<fieldset class="fieldborder">
+					<legend class="legendfont">Is Tecrubelerim</legend>
+					<p>
+						<ul>
+							<li>2008-2016 endustri muhendisligi</li>
+						</ul>
+					</p>
+				</fieldset>
+			</section>
+			<br>
+			<hr>
+			<!--aile bilgisi bolumu-->
+			<section class="intro">
+				<fieldset class="fieldborder">
+					<legend class="legendfont">aile bilgisi</legend>
+					<table>
+						<tr>
+							<th>Yakinlik</th>
+							<th>Isim</th>
+							<th>Yas</th>
+							<th>Okul Durumu</th>
+						</tr>
+						<tr>
+							<td>Babasi</td>
+							<td>Salim</td>
+							<td>64</td>
+							<td>Lise mezunu</td>
+						</tr>
+						<tr>
+							<td>Annesi</td>
+							<td>Hatice</td>
+							<td>55</td>
+							<td>Lise mezunu</td>
+						</tr>
+						<tr>
+							<td>Kardesi</td>
+							<td>Oguz</td>
+							<td>25</td>
+							<td>Lise mezunu</td>
+						</tr>
+					</table>
+				</fieldset>
+			</section>
+			<br>
+			<!--hobilerim bolumu-->
+			<section class="intro">
+				<fieldset class="fieldborder">
+					<legend class="legendfont">hobilerim</legend>
+					<ul>
+						<li>Yüzme</li>
+						<li>Satranc oynama</li>
+						<li>Dil ögrenme</li>
+						<li>Balik tutma</li>
+						<li>Doga Yuruyusu</li>
+					</ul>
+				</fieldset>
+			</section>
+			<br>
+			<hr><br>
+			<!--programlama bilgilerim bolumu. sseviyeyi gostermek icin progress kullandim-->
+			<section>
+				<fieldset class="fieldborder">
+					<legend class="legendfont">Programlama Bilgilerim</legend>
+					<ul>
+						<li> <progress value="50" max="100"></progress> Ofis programlari</li>
+						<li> <progress value="5" max="100"></progress> Visual Basic</li>
+						<li> <progress value="5" max="100"></progress> C</li>
+						<li> <progress value="60" max="100"></progress> Html</li>
+						<LI> <progress value="40" max="100"></progress> Css</LI>
+					</ul>
+				</fieldset>
+				<br>
+				<br>
+				<!--video ekledim-->
+				<video controls autoplay>
+					<source src="videoplayback.mp4" type="video/mp4">
+				</video>
+			</section>
+		</article>
+	</main>
+	<hr>
+	<!--iletisim bilgilerim-->
+	<footer>
+		<h2 class="contact"> Iletisim Bilgileri</h2>
+		<address>
+			<p class="contact">Telefon No: <a href="tel:0778737766">0778737766</a></p>
+			<p class="contact">Mail:<a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+
+		</address>
+	</footer>
+</body>
+
+</html>
