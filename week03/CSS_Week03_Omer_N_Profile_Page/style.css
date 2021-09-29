@@ -41,7 +41,6 @@ nav {
 
 #login>a {
     display: inline-block;
-
     color: #FFDDCC;
     margin-top: 0px;
     padding: 10px 20px;
@@ -125,6 +124,13 @@ article {
 /*hakkimda bolumunun harf araligini arttirdim*/
 #about {
     letter-spacing: 0.5px;
+}
+
+/*hakkimda bolumunde endustri muhendisligi yazan yaziyi hover ile font, transform ve color ini degistirdim*/
+#fontstrong:hover {
+    color: red;
+    font-size: large;
+    text-transform: capitalize;
 }
 
 /*liste isaretini kare yaptim*/
