@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Design</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+
+<body>
+    <!--main 4 tane buyuk yuvarlagi olusturan 4 adet aside dan ve ana bolumu olusturan sectiondan olusmaktadir-->
+    <main>
+        <!--4 adet yuvarlak olusturuldu-->
+        <aside class="round"></aside>
+        <aside class="round"></aside>
+        <aside class="round"></aside>
+        <aside class="round"></aside>
+
+        <!--ana profil blogu mainbox id si ile olusturuldu. -->
+        <!--mainbox blogu header, div#intro, div.settings ve footerdan olusmaktadir-->
+        <section id="mainbox">
+            <header>
+                <!--profil blogunun headerinda bulunan yuvarlaklar olusturuldu-->
+                <div class="headround"></div>
+                <div class="headround"></div>
+                <div class="headround"></div>
+                <!--header da bulunan 3 nokta ve geri isareti linkleri olusturuldu-->
+                <div id="link">
+                    <a href="./index.html"> <i class="fas fa-chevron-left"></i></a>
+                    <a href="./index.html">...</a>
+                </div>
+                <!--profil resmi-->
+                <figure>
+                    <img src="./profil.jpg" alt="profile photo">
+                </figure>
+                <!--profil resmi uzerindeki kucuk fotograf makinesi -->
+                <div id="photoicon"><i class="fas fa-camera"></i></div>
+            </header>
+            <!--profil blogu uzerindeki ustteki tanitim bilgilerin bulundugu kisma intro id si verildi-->
+            <div id="intro">
+                <div class="social">
+                    Gaurav K
+                </div>
+
+                <div class="social">
+                    Visiual Designer
+                </div>
+                <!--sosyal medya linkleri-->
+                <div class="social">
+                    <a href="https://dribbble.com/" target="_blank"> <i class="fab fa-dribbble"></i></a>
+                    <a href="https://tr-tr.facebook.com/" target="_blank"> <i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/?lang=tr" target="_blank"> <i class="fab fa-twitter"></i></a>
+                    <a href="https://www.behance.net/" target="_blank"> <i class="fab fa-behance"></i></a>
+                </div>
+
+                <div class="social">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    Nam sagittis sed mi eget vulputate.
+                    </p>
+                </div>
+            </div>
+            <!--ayarlar kismi bloguna div.settings adi verildi-->
+            <div class="settings">
+                <h6>ACCOUNT SETTINGS</h6>
+
+                <section id="tools">
+                    <div>
+                        <ul>
+                            <a href="./index.html">
+                                <li>Update Email Adress</li>
+                            </a>
+                        </ul>
+
+                        <ul>
+                            <a href="./index.html">
+                                <li>Reset Password</li>
+                            </a>
+                        </ul>
+
+                        <ul>
+                            <a href="./index.html">
+                                <li>Update My Details</li>
+                            </a>
+                        </ul>
+
+                        <ul>
+                            <a href="./index.html">
+                                <li>Log Out</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <!--sag yonlu 4 adet ok isaretine link verildi-->
+                    <div id="chevron">
+                        <a href=""> <i class="fas fa-chevron-right"></i></a>
+                        <a href=""> <i class="fas fa-chevron-right"></i></a>
+                        <a href=""><i class="fas fa-chevron-right"></i></a>
+                        <a href=""> <i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </section>
+            </div>
+
+            <footer>
+                <div class="settings">
+                    <H6>PRIVACY SETTINGS</H6>
+                </div>
+                <hr>
+                <!--footer kisminda bulunan iconlara link verildi-->
+                <div class="footericon">
+                    <a href="./index.html"> <i class="far fa-clone"></i></a>
+                    <a href="./index.html"> <i class="fas fa-search"></i></a>
+                    <a href="./index.html"> <i class="far fa-comment-dots"></i></a>
+                    <a href="./index.html"> <i class="fas fa-user"></i></a>
+                </div>
+            </footer>
+        </section>
+    </main>
+</body>
+
+</html>
