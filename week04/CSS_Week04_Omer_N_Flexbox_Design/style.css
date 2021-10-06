@@ -22,7 +22,6 @@ aside:nth-child(1) {
     left: 20vw;
     top: 2vh;
     background-color: rgb(144, 220, 230);
-    transition: transform 2s;
 }
 
 aside:nth-child(2) {
@@ -219,7 +218,7 @@ li {
     justify-content: space-around;
     position: relative;
     bottom: 14vh;
-    transition: font-size 2s;
+    transition: font-size 0.5s;
 }
 
 hr {
@@ -254,7 +253,7 @@ h6:hover {
 }
 
 .social>a {
-    transition: font-size 2s;
+    transition: font-size 0.5s;
 }
 
 /*sosyal medya iconlarina ve footer icon bolumune grup secici kullanilarak hover verildi*/
