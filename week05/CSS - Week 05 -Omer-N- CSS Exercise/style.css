@@ -1,0 +1,217 @@
+main {
+    height: 70vh;
+    width: auto;
+    background-color: #fcecbd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid rgb(184, 131, 18);
+}
+
+/*1. kutu yarim silindir sekilleri*/
+#box1 {
+    height: 50vh;
+    width: 30vw;
+    background-color: #62306d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1-inside {
+    height: 36vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cylinder {
+    width: 8vw;
+    height: 18vh;
+    background-color: #f7ec7d;
+}
+
+.cylinder:nth-child(1) {
+    border-radius: 0% 0% 60% 60%;
+    background-color: #62306d;
+}
+
+.cylinder:nth-child(2) {
+    border-radius: 60% 60% 0% 0%;
+}
+
+.cylinder:nth-child(3) {
+    border-radius: 0% 0% 60% 60%;
+    background-color: #62306d;
+}
+
+.cylinder-reverse {
+    width: 8vw;
+    height: 18vh;
+    background-color: #f7ec7d;
+}
+
+.cylinder-reverse:nth-child(4) {
+    border-radius: 0% 0% 60% 60%;
+}
+
+.cylinder-reverse:nth-child(5) {
+    border-radius: 60% 60% 0% 0%;
+    background-color: #62306d;
+}
+
+.cylinder-reverse:nth-child(6) {
+    border-radius: 0% 0% 60% 60%;
+}
+
+/*2. kutu 3 dilimli daire sekli*/
+#box2 {
+    height: 50vh;
+    width: 30vw;
+    background-color: #e3516e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box2-inside {
+    height: 36vh;
+    width: 18vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.circle {
+    height: 18vh;
+    width: 9vw;
+}
+
+.circle:nth-child(1) {
+    border-radius: 270% 0% 0% 0%;
+    background-color: #51b5a9;
+}
+
+.circle:nth-child(2) {
+    border-radius: 0% 270% 0% 0%;
+    background-color: #fade8b;
+}
+
+.circle:nth-child(3) {
+    border-radius: 0% 0% 0% 270%;
+    background-color: #f7f3f7;
+}
+
+/*4 ceyrek daire arka plani rengi ile kaybedildi*/
+.circle:nth-child(4) {
+    border-radius: 0% 0% 270% 0%;
+    background-color: #e3516e;
+}
+
+
+/*3. kutu cember seklilleri*/
+#box3 {
+    height: 50vh;
+    width: 30vw;
+    background-color: #191210;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*3 cemberi icine alan box3 icindeki kutu*/
+#box3-inside {
+    width: 26vw;
+    height: 24vh;
+    display: flex;
+    align-items: center;
+}
+
+/*3 buyuk cemberin degerleri. 2. cemberi daha buyuk yapmak icin asagida .ring:nth-child(2) de ayrica degisiklik yapiyorum*/
+.ring {
+    width: 8vw;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+/*1 ve 3 . dairenin ortasindaki kucuk daireler */
+.little-ring {
+    width: 5vw;
+    height: 11vh;
+    background-color: #191210;
+    border-radius: 50%;
+}
+
+/*1. daire*/
+.ring:nth-child(1) {
+    background-color: #eca03d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1.5vw;
+}
+
+/*2. daire, ortadaki buyuk cember*/
+.ring:nth-child(2) {
+    background-color: #eca03d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11vw;
+    height: 22vh;
+    z-index: 5;
+}
+
+/*ortadaki en buyuk dairenin icindeki daire*/
+#middle-ring {
+    width: 8vw;
+    height: 17vh;
+    background-color: #191210;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ortadaki en buyuk dairenin icindeki dairenin icindeki daha kucuk daire*/
+#middle-little-ring {
+    background-color: #84271c;
+    width: 4vw;
+    height: 9vh;
+    border-radius: 50%;
+}
+
+/*3. daire*/
+.ring:nth-child(3) {
+    background-color: #eca03d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 1.5vw;
+}
+
+/*1. cemberi yarim yapip gizleme yapan dikdortgen*/
+#hiding-1 {
+    background-color: #191210;
+    width: 15vw;
+    height: 17vh;
+    position: relative;
+    left: 65.7vw;
+    bottom: 50.7vh;
+    z-index: 3;
+}
+
+/*3. cemberi yarim yapip gizleme yapan dikdortgen*/
+#hiding-2 {
+    background-color: #191210;
+    width: 11.7vw;
+    height: 15vh;
+    position: relative;
+    left: 80.6vw;
+    bottom: 53.6vh;
+    z-index: 3;
+}

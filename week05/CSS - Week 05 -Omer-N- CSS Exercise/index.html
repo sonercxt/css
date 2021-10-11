@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Exercise</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--main bolumu 3 farkli sekil icin 3 section dan olusmaktadir-->
+    <main>
+        <!--ilk kutu-->
+        <section id="box1">
+            <!--box1 in icine yarim silindirleri daha kolay kontrol etmek icin baska bir kutu yerlestirdim-->
+            <section id="box1-inside">
+                <!--herbir silindirin karsi tarafina bir silindir koyup rengini arka plani rengi atadim -->
+                <div class="cylinder"></div>
+                <div class="cylinder"></div>
+                <div class="cylinder"></div>
+                <div class="cylinder-reverse"></div>
+                <div class="cylinder-reverse"></div>
+                <div class="cylinder-reverse"></div>
+            </section>
+        </section>
+        <!--2. kutuda 4 farkli kareyi ceyrek sekilde yerlestirdim-->
+        <section id="box2">
+            <!--box2 nin icine ceyrek daireleri daha kolay kontrol etmek icin baska bir kutu yerlestirdim-->
+            <section id="box2-inside">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </section>
+        </section>
+        <!--3. kutu-->
+        <section id="box3">
+            <!--box3 un icine yuvarlaklari daha kolay kontrol etmek icin baska bir kutu yerlestirdim-->
+            <section id="box3-inside">
+                <!--class i ring olan 3 daire atadim. 2. daireyi, 1. ve 3 dairelerden büyük yaptim -->
+                <!--herbir dairenin icine kucuk bir daire daha yerlestirdim ki cember goruntusu olussun-->
+                <!--1. yarim cember-->
+                <div class="ring">
+                    <div class="little-ring"></div>
+                </div>
+                <!--ortadaki büyük cember-->
+                <!--ring class li dairenin icine 2 ayri daire daha yerlestirdim-->
+                <div class="ring">
+                    <div id="middle-ring">
+                        <div id="middle-little-ring"></div>
+                    </div>
+                </div>
+                <!--3. yarim cember-->
+                <div class="ring">
+                    <div class="little-ring"></div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!--box3 deki yarim cemberleri olusturmak icin dairelerin yarisini kapsayip kaybedecek sekilde 2 farkli dikdörtgen atadim.-->
+    <!--bu dikdortgenleri class ringini kapsayan bir kutu yapip class ringini ve hidingleri bu kutunun icine de yerlestirebilirdim-->
+    <div id="hiding-1"></div>
+    <div id="hiding-2"></div>
+
+</body>
+
+</html>
