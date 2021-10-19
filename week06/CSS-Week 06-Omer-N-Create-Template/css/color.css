@@ -1,0 +1,31 @@
+/*colors*/
+body {
+    background-color: #F6F8FC;
+}
+
+main {
+    background-color: #67A9F2;
+}
+
+.rows>section:nth-child(n) {
+    background-color: #F6F8FC;
+}
+
+/*1. satirin en son kutucugu*/
+#list {
+    background-color: #67A9F2;
+}
+
+/*2. satirin sondaki kucuk resim elemani*/
+#image-button {
+    background-color: #67A9F2;
+}
+
+#little-image {
+    background-color: #F6F8FC;
+}
+
+/*sosyal medya linkleri*/
+#social-media {
+    background-color: #67A9F2;
+}
