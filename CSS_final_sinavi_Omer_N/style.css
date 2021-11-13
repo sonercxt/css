@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+main {
+    width: 70vw;
+    height: 80vh;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 70vw;
+    height: 35vh;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box>div {
+    width: 15vw;
+    height: 26vh;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #bbb;
+}
+
+figure {}
+
+img {
+    width: 15vw;
+    height: 20vh;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.content-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.text-image {
+    font-size: 0.8rem;
+}
+
+.text-image>p:nth-child(2) {
+    color: rgb(128, 125, 125);
+}
+
+footer {
+    width: 90vw;
+    height: 50vh;
+
+    margin: auto;
+}
+
+#footer-top {
+    width: 90vw;
+    height: 40vh;
+    background-color: rgb(47, 47, 48);
+
+}
+
+#footer-bottom {
+    width: 90vw;
+    height: 10vh;
+    background-color: rgb(104, 50, 206);
+    display: flex;
+    column-gap: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 70vw;
+
+    height: 5vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-content:nth-child(2) {}
+
+.footer-content>a {
+    color: rgb(255, 255, 255);
+}
+
+
+#footer-link {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.line {
+    background-color: rgb(253, 253, 253);
+    width: 70vw;
+    height: 1px;
+    margin: 10px auto;
+
+}
+
+li {
+    list-style-type: none;
+    margin-top: 2vh;
+}
+
+li>a {
+
+    color: rgb(245, 245, 245);
+}
+
+footer span {
+    color: rgb(168, 168, 168);
+}
+
+#author {}
+
+#footer-bottom>a {
+    background-color: crimson;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 5px;
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+}
+
+#footer-bottom>span {
+    font-weight: bold;
+}
